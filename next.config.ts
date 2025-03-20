@@ -1,7 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 module.exports = {
-    webpack(config) {
+    webpack(config: { module: { rules: any[] } }) {
       // Grab the existing rule that handles SVG imports
-      const fileLoaderRule = config.module.rules.find((rule) =>
+      const fileLoaderRule = config.module.rules.find((rule: { test: { test: (arg0: string) => any } }) =>
         rule.test?.test?.('.svg'),
       )
   
