@@ -1,6 +1,5 @@
 import Card from "@/components/Card";
 //import { SvgImage } from "@/components/SvgImage";
-import Image from "next/image";
 import SvgImage from "@/components/SvgImage";
 import Footer from "@/components/Footer";
 import Division from "@/components/Division";
