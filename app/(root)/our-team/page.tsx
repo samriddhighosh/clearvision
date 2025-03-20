@@ -9,7 +9,7 @@ const page = () => {
         <div>
           <h1 className="heading text-[56px]">Meet ...</h1>
           <p className='des'>lorem ipsum</p>
-          <button className="button !bg-white">Meet Her ></button>
+          <button className="button !bg-white">Meet Her</button>
         </div>
         
       </div>
@@ -19,7 +19,7 @@ const page = () => {
         <div>
           <h1 className="heading text-[56px]">Meet ...</h1>
           <p className='des'>lorem ipsum</p>
-          <button className="button !bg-white">Meet Her ></button>
+          <button className="button !bg-white">Meet Her</button>
         </div>
         
       </div>
