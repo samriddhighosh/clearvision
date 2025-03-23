@@ -5,14 +5,17 @@
 
 
 @layer utilities{
+  .main{
+    @apply font-DMSerif pt-20 pb-10 text-[78px] text-white max-w-2xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)];
+  }
   .heading{
-    @apply font-DMSerif mb-3 text-text max-w-2xl;
+    @apply font-DMSerif pb-3 text-text max-w-2xl;
   }
   .des{
-    @apply mb-12 font-openSans text-left;
+    @apply pb-12 font-openSans text-left;
   }
   .button{
-    @apply px-9 py-4 hover:bg-orange-300 hover:border-orange-300 bg-primary rounded-2xl text-[18px] font-medium border-4 border-primary;
+    @apply px-9 py-4 hover:bg-orange-300 hover:border-orange-300 bg-primary rounded-2xl text-[18px] font-medium border-2 border-primary drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)];
   }
 }
 

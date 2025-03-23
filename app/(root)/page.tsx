@@ -7,15 +7,15 @@ import Division from "@/components/Division";
 export default function Home() {
   return (
    <div>
-    <section className="items-center w-full px-52 py-20">
-      <h1 className="heading pb-10 text-[72px]">Restoring Sight, Changing Lives</h1>
+    <section className="items-center w-full px-52 py-20 bg-[url(@/public/hero_home.png)] bg-no-repeat bg-cover">
+      <h1 className="main">Restoring Sight, Changing Lives</h1>
       <div className="flex gap-20 text-center">
         <button className="button">Get Involved</button>
         <button className="button !bg-white">Learn More</button>
       </div>
     </section>
-    <section className="items-center w-full px-36 py-20">
-      <div className="mb-24">
+    <section className="items-center w-full">
+      <div className="mb-24 px-36 py-14">
         <h1 className="heading text-[60px]">How we started</h1>
         <p className="des max-w-3xl">ClearVision Foundation is a global, youth-driven initiative dedicated to restoring sight and transforming lives. Through free medical eye care and groundbreaking research, we are tackling the challenges of preventable blindness.</p>
         <div className="flex gap-20">
@@ -24,12 +24,11 @@ export default function Home() {
           <Card title="Non Profit" description="description"/>
         </div>
       </div>
-      <div className="mb-24">
-        <div className="flex items-center justify-start gap-20 mb-24 ">
-          <h2 className="heading text-[60px] w-7/12">&quot;Quote&quot;</h2>
-          <p className="py-20 px-40 bg-gray-300"></p>
+      <div>
+        <div className="flex text-center justify-center gap-20 bg-primary py-36">
+          <h2 className="heading text-[60px]">&quot;Sight is what you see with your eyes, vision is hwta you see with your mind&quot;- Person</h2>
         </div>
-        <div>
+        <div className="px-36 py-20">
           <div className="flex items-center gap-12">
             <Card title="Fundraising" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
             <SvgImage/>
@@ -51,6 +50,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+    </section>
+    <section className="px-36 py-14 items-center w-full">
       <div className="flex items-center gap-12 mb-12">
         <div className="w-7/12">
           <h1 className="heading text-[64px]"> All lenses fits all</h1>
@@ -58,7 +59,7 @@ export default function Home() {
         </div>
         <p className="py-20 px-40 bg-gray-300"></p>
       </div>
-      <div className="flex items-center gap-20 mb-10">
+      <div className="flex gap-12 py-20">
         <Division title="Volunteers" description="working towards accessible vision care.
 "/>
         <Division title="PlaceHolder" description="This is the description"/>

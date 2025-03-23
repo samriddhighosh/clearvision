@@ -42,13 +42,13 @@ export const Navbar = () => {
                   </Link>
                 </NavigationMenuLink>
               </li>
-              <ListItem href="/docs" title="How we work">
+              <ListItem href="/non-profit/how-we-work" title="How we work">
                 Our step-by-step process on our initiative to revolutionanize global healthcare
               </ListItem>
               <ListItem href="/docs/installation" title="Location">
                 Our locations around the world
               </ListItem>
-              <ListItem href="/docs/primitives/typography" title="Global Ambassador">
+              <ListItem href="/non-profit/global-ambassador" title="Global Ambassador">
                 Volunteer with us
               </ListItem>
             </ul>

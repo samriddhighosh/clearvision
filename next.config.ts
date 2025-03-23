@@ -1,5 +1,21 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 module.exports = {
+  async headers() {
+    return [
+      {
+        source: "/(.*)",
+        headers: [
+          {
+            key: "Access-Control-Allow-Origin",
+            value: "*",
+          },
+        ],
+      },
+    ];
+  },
+  images: {
+    domains: ["tally.so"],
+  },
     webpack(config: { module: { rules: any[] } }) {
       // Grab the existing rule that handles SVG imports
       const fileLoaderRule = config.module.rules.find((rule: { test: { test: (arg0: string) => any } }) =>
