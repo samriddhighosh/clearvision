@@ -7,7 +7,7 @@ import Division from "@/components/Division";
 export default function Home() {
   return (
    <div>
-    <section className="items-center w-full px-52 py-20 bg-[url(@/public/hero_home.png)] bg-no-repeat bg-cover">
+    <section className="items-center w-full px-52 py-20">
       <h1 className="main">Restoring Sight, Changing Lives</h1>
       <div className="flex gap-20 text-center">
         <button className="button">Get Involved</button>
