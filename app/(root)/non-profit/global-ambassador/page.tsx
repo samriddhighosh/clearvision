@@ -1,6 +1,4 @@
 import Division from '@/components/Division'
-import { FormGYA } from '@/components/Form'
-import TallyForm from '@/components/FullForm'
 import React from 'react'
 
 const page = () => {
