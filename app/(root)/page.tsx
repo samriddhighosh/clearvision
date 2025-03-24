@@ -3,13 +3,14 @@ import Card from "@/components/Card";
 import SvgImage from "@/components/SvgImage";
 import Footer from "@/components/Footer";
 import Division from "@/components/Division";
+import Image from "next/image";
 
 export default function Home() {
   return (
    <div>
     <section className="items-center w-full px-52 py-20">
-      <h1 className="main">Restoring Sight, Changing Lives</h1>
-      <div className="flex gap-20 text-center">
+      <h1 className="heading text-[76px] mt-16 !leading-snug">Restoring Sight, Changing Lives</h1>
+      <div className="flex gap-20 text-center my-10">
         <button className="button">Get Involved</button>
         <button className="button !bg-white">Learn More</button>
       </div>
@@ -57,7 +58,7 @@ export default function Home() {
           <h1 className="heading text-[64px]"> All lenses fits all</h1>
           <p className="des">Research</p>
         </div>
-        <p className="py-20 px-40 bg-gray-300"></p>
+        <Image src="/happy-doctor.png" alt="Eyecare-Image" width={600} height={620} />
       </div>
       <div className="flex gap-12 py-20">
         <Division title="Volunteers" description="working towards accessible vision care.
@@ -66,12 +67,12 @@ export default function Home() {
         <Division title=" Millions are at risk" description="of preventable blindness—we are here to change that." className="!border-r-0"/>
       </div>
       
-      <div className="flex items-center gap-12">
+      <div className="flex items-center gap-4">
         <div className="w-7/12">
           <h1 className="heading text-[68px] pb-5">Help us make this dream a reality</h1>
           <button className="button">Donate Today!</button>
         </div>
-        <p className="py-20 px-36 bg-gray-300"></p>
+        <Image src="/eyeCare.png" alt="Eyecare-Image" width={500} height={460} />
       </div>
     </section>
     <section>

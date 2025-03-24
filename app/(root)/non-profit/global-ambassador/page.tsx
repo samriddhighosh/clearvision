@@ -4,9 +4,10 @@ import React from 'react'
 const page = () => {
   return (
     <div className='my-36'>
-        <section className='text-center'>
-            <h1 className='mx-auto heading text-[64px]'>Welcome to the world of eye vision</h1>
-            <p className='mx-auto text-[18px]'>Ready to apply to change the future of our systems? Scroll down</p>
+        <section className='px-28'>
+            <p className='tagline max-w-36'>Ambassador</p>
+            <h1 className='heading text-[64px]'>Welcome to the world of eye vision</h1>
+            <p className='text-[18px]'>Ready to apply to change the future of our systems? Scroll down</p>
         </section>
         <div className="flex gap-8 pl-20 pt-20">
           <Division title="Non Profit" description="description"/>
