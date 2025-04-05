@@ -25,9 +25,12 @@ const page = () => {
       </div>
     </div>
     <div className="flex gap-20 m-20">
-          <Card title="Physics" description="description"/>
-          <Card title="Biology" description="description"/>
-          <Card title="Computer Science" description="description"/>
+          <Card title="Physics" description="Advancing microfluidics, electrowetting, and smart lens materials.
+"/>
+          <Card title="Biology" description=" Studying biocompatibility and optimizing vision correction mechanisms.
+"/>
+          <Card title="Computer Science" description="Implementing AI-driven optimization for real-time lens adaptation to make lenses as efficient as possible.
+"/>
         </div>
     <div>
     <div className="">

@@ -31,7 +31,8 @@ export default function Home() {
         </div>
         <div className="px-36 py-20">
           <div className="flex items-center gap-12">
-            <Card title="Fundraising" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
+            <Card title="Fundraising" description="Mobilizing resources through grants, donations, and sponsorships.
+"/>
             <SvgImage/>
             <Card/>
             {/* <p className="px-32 py-40 bg-blue-200 rounded-2xl w-1/2"></p> */}
@@ -40,14 +41,24 @@ export default function Home() {
             {/* <p className="px-20 py-40 bg-blue-200 rounded-2xl w-1/2"></p> */}
             <Card/>
             <SvgImage/>
-            <Card title="Fundraising" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
+            <Card title="Planning" description="Coordinating with hospitals, doctors, and volunteers to organize camps."/>
             
           </div>
           <div className="flex items-center gap-12">
-            <Card title="Fundraising" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."/>
+            <Card title="Hosting Medical Camps" description="Providing free check-ups, prescription glasses, and surgical referrals.
+"/>
             <SvgImage/>
             {/* <p className="px-28 py-40 bg-blue-200 rounded-2xl w-1/2"></p> */}
             <Card/>
+          </div>
+          <div className="flex items-center gap-12">
+            <Card/>
+            <SvgImage/>
+            <Card title="Surgeries & Follow-ups" description="Fully funded cataract surgeries, post-operative care, and long-term eye health support.
+
+"/>
+            {/* <p className="px-28 py-40 bg-blue-200 rounded-2xl w-1/2"></p> */}
+            
           </div>
         </div>
       </div>
