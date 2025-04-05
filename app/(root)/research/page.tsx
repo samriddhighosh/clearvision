@@ -1,6 +1,5 @@
 import Card from '@/components/Card'
 import React from 'react'
-import SvgImage from "@/components/SvgImage";
 import Image from 'next/image';
 
 const page = () => {
