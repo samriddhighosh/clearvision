@@ -27,7 +27,7 @@ export default function Home() {
       </div>
       <div>
         <div className="flex text-center justify-center gap-20 bg-primary py-36">
-          <h2 className="heading text-[60px]">&quot;Sight is what you see with your eyes, vision is hwta you see with your mind&quot;- Person</h2>
+          <h2 className="heading text-[60px]">&quot;Vision isn’t just about what we see—it’s about believing in a future where no one is left in the dark.&quot;- Person</h2>
         </div>
         <div className="px-36 py-20">
           <div className="flex items-center gap-12">

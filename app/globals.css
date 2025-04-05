@@ -9,7 +9,7 @@
     @apply font-DMSerif pt-20 pb-10 text-[78px] text-white max-w-2xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)];
   }
   .heading{
-    @apply font-DMSerif pb-4 text-text max-w-2xl leading-none;
+    @apply font-DMSerif pb-6 text-text max-w-2xl leading-none;
   }
   .des{
     @apply pb-12 font-openSans text-left;
