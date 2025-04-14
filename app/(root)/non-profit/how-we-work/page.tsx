@@ -1,4 +1,5 @@
 import Division from '@/components/Division'
+import Tabs_Work from '@/components/how-we-work'
 import React from 'react'
 
 const HowWeWork = () => {
@@ -7,6 +8,9 @@ const HowWeWork = () => {
         <div className='px-24 py-40'>
             <p className='tagline max-w-36'>How We Work</p>
             <h1 className='heading text-[70px] !max-w-3xl'>Changing vision all over the world by 2030</h1>
+        </div>
+        <div>
+          <Tabs_Work/>
         </div>
         <div className="flex gap-8 px-24 pt-44">
           <Division title="5,000+ individuals" description="We aim to host 20+ free medical eye camps annually, reaching over 5,000 individuals in need."/>

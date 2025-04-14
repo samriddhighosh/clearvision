@@ -13,25 +13,33 @@ const page = () => {
         </p>
     </div>
     <Image src="/happy.png" alt="Happy Group Image" width={1500} height={900} />
-    <div className='flex py-28 px-32 gap-20'>
+    <div className='flex py-32 px-32 gap-20'>
       <div className='w-1/2'>
           <h1 className='heading text-[52px]'>The New generation</h1>
-          <p className='mx-auto text-[20px]'>While this project is still under development, our goal is to bring it from research to real-world application, ensuring that everyone, regardless of location or financial means, has access to cutting-edge vision care.</p>
+          <p className='mx-auto text-[20px]'>At Clearvision, we are pioneering a future where innovative vision solutions are available to everyone. While this project is still under active development, our mission is to transform cutting-edge research into real-world impact—ensuring equitable access to advanced eye care, no matter where someone lives or what they can afford.</p>
       </div>
-      <div className='w-1/2 text-[20px] font-semibold pt-8'>
-        <p className='pb-8'>~  Utilizing liquid crystal or fluid-based technology, these lenses alter their focal length in response to the wearer’s requirements.</p>
-        <p  className='pb-8'>~  Integrated with a mechanism that detects visual strain, they dynamically adjust to optimize clarity.</p>
-        <p>~  This innovation has the potential to replace traditional glasses and could drastically improve accessibility to vision correction, especially in remote and underserved areas.</p>
+      <div className='w-1/2 text-[19px] font-semibold py-8 px-10 bg-primary rounded-lg'>
+        <p className='pb-8'>~  Lenses that adjust their focus using liquid crystal or fluid-based systems.</p>
+        <p  className='pb-8'>~  Built-in sensors adapt the lens in real time to reduce eye strain.</p>
+        <p>~  Aimed at replacing traditional glasses, especially for underserved areas.</p>
       </div>
     </div>
-    <div className="flex gap-20 m-20">
+    <div className="flex gap-12 m-20 px-12">
           <Card title="Physics" description="Advancing microfluidics, electrowetting, and smart lens materials.
 "/>
           <Card title="Biology" description=" Studying biocompatibility and optimizing vision correction mechanisms.
 "/>
           <Card title="Computer Science" description="Implementing AI-driven optimization for real-time lens adaptation to make lenses as efficient as possible.
 "/>
+    </div>
+    <div className='flex items-center gap-28 px-36 py-10 '>
+        <div>
+          <h1 className="heading text-[56px]">Want to learn More?</h1>
+          <p className='text-[20px]'>Check out our recent projects in-depth</p>
+          <button className='text-primary font-bold text-[20px] pt-8'>Donate Today</button>
         </div>
+        <Image src="/hero_home.png" alt="Doctor looking into a baby's eyes" width={400} height={500} />
+    </div>
     <div>
     <div className="">
         <Image src="/timeline.png" alt="Timeline for the website" width={1200} height={1200} />
