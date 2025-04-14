@@ -3,7 +3,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 const Tabs_Work = () => {
     return(
-        <Tabs defaultValue="account" className="w-10/12 mx-auto">
+        <Tabs defaultValue="account" className="w-10/12 mx-auto bg-orange-100 px-16 py-10 rounded-3xl">
             <TabsList className="grid w-full grid-cols-3">
                 <TabsTrigger value="smart-tech">Smart Tech</TabsTrigger>
                 <TabsTrigger value="built-in-intelligence">Built-In Intelligence</TabsTrigger>
