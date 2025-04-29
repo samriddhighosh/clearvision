@@ -1,13 +1,8 @@
 export const aboutUs: { title: string; href: string; description: string }[] = [
-    {
-      title: "Our Team",
-      href: "/our-team",
-      description:
-        "Our Current research for global eye healthcare",
-    },
+    
     {
       title: "Contact Us",
-      href: "/docs/primitives/hover-card",
+      href: "/contact-us",
       description:
         "For sighted users to preview content available behind a link.",
     },

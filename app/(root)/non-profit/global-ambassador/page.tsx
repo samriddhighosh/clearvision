@@ -15,8 +15,9 @@ const page = () => {
           <Division title="Support Events & Campaigns" description="You’ll play a key role in organizing and spreading the word about virtual events, workshops, and awareness campaigns. This includes designing materials, coordinating with participants, and boosting engagement."/>
           <Division title="Build Strategic Partnerships" description="Assist in identifying and reaching out to potential collaborators—schools, youth orgs, influencers, and more—who align with ClearVision’s mission and can help amplify our impact." className='border-r-0'/>
         </div>
-        <div>
-          <iframe src="https://tally.so/r/w4OaVO"width="100%" 
+        <div className='px-24 py-12'>
+          <h2 className='heading text-[56px]'>Apply Now!</h2>
+          <iframe src="https://tally.so/embed/w4OaVO?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"width="100%" 
         height="600px" 
         style={{ border: "none" }} 
         allow="fullscreen"  />
