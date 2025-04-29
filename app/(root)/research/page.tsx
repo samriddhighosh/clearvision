@@ -32,14 +32,7 @@ const page = () => {
           <Card title="Computer Science" description="Implementing AI-driven optimization for real-time lens adaptation to make lenses as efficient as possible.
 "/>
     </div>
-    <div className='flex items-center gap-28 px-36 py-10 '>
-        <div>
-          <h1 className="heading text-[56px]">Want to learn More?</h1>
-          <p className='text-[20px]'>Check out our recent projects in-depth</p>
-          <button className='text-primary font-bold text-[20px] pt-8'>Donate Today</button>
-        </div>
-        <Image src="/hero_home.png" alt="Doctor looking into a baby's eyes" width={400} height={500} />
-    </div>
+    
     <div>
     <div className="">
         <Image src="/timeline.png" alt="Timeline for the website" width={1200} height={1200} />

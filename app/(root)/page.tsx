@@ -8,8 +8,8 @@ import Image from "next/image";
 export default function Home() {
   return (
    <div>
-    <section className="items-center w-full px-52 py-20">
-      <h1 className="heading text-[80px] mt-16 !leading-snug">Restoring Sight, Changing Lives</h1>
+    <section className="items-center w-full px-52 py-24 bg-[url(/home.jpg)] bg-cover bg-no-repeat">
+      <h1 className="heading text-[80px] mt-16 !leading-snug !text-white">Restoring Sight, Changing Lives</h1>
       <div className="flex gap-20 text-center my-10">
         <button className="button">Get Involved</button>
         <button className="button !bg-white">Learn More</button>
